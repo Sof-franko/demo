@@ -1,14 +1,25 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "First post", "description": "Romantic Place" },
+    { "id": 2, "title": "Second post", "description": "Inspirational Place" },
+    { "id": 3, "title": "Third post", "description": "Sporty Place" },
+    { "id": 4, "title": "Forth post", "description": "Coffee-time Place" },
+    { "id": 5, "title": "Fifth post", "description": "Work Place" },
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "So cute!!", "postId": 1 },
+    { "id": 2, "body": "I ve already been there 2 years ago", "postId": 2 },
+    { "id": 3, "body": "Peachy girl", "postId": 3 },
+    { "id": 4, "body": "Looks delicious..!", "postId": 4 },
+    { "id": 5, "body": "omg I just dream about working over there", "postId": 5 }
   ],
   "profile": {
-    "name": "typicode"
-  }
+    "name": "Eva",
+    "surname": "Tallin",
+    "date-of-birth": "17.08.2000",
+    "education": "Oxford University, speciality: Web Developer",
+    "marital-status": "in love",
+    "hobbies": "Swimming, Web Design, photography, play the guitar, travelling"
+  },
+  
 }
